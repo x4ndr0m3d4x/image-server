@@ -43,6 +43,7 @@ jobs:
         with:
           repository: ${{ github.repository_owner }}/k8s-homelab
           token: ${{ secrets.K8S_HOMELAB_PAT }}
+          ref: main
           path: k8s-homelab
 
       - name: Update image tag
