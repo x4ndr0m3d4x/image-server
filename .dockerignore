@@ -1,0 +1,6 @@
+# Images are not baked into the Docker image — they're mounted via PVC
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp

@@ -1,0 +1,6 @@
+# Images are managed on the PVC, not in the repo
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
